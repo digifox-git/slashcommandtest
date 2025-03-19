@@ -1,11 +1,12 @@
 {
   "name": "discordjs-v14-bot-template",
+  "type": "module",
   "version": "3.0.0",
   "description": "A Discord bot commands, components and events handler based on discord.js v14 and fully written in JavaScript.",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ."
+    "start": "nodemon ."
   },
   "keywords": [],
   "author": "TFAGaming",
@@ -15,6 +16,8 @@
     "discord.js": "^14.17.0",
     "discordjs-v14-bot-template": "file:",
     "dotenv": "^16.4.5",
+    "nodemon": "^3.1.9",
+    "package.json": "^0.0.0",
     "quick-yaml.db": "^1.2.2"
   }
 }
