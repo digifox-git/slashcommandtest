@@ -36,14 +36,8 @@ client.user.setActivity('somethin', { type: ActivityType.Watching })
 client.on('interactionCreate', async (interaction) => {
 
   try {
-
-
   if (interaction.commandName === 'hey') {
       await interaction.reply('Hello!');
-  }
-
-  if (interaction.commandName === 'gleebygleeby') {
-      await interaction.reply('Holy what?? We have an alien in this server???');
   }
 
 }catch (error) {
